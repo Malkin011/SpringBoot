@@ -1,6 +1,6 @@
 package org.generation.blogpessoal.model;
 
-public class UserLogin {
+public class UsuarioLogin {
 	
 	private String nome;
 	
@@ -9,6 +9,16 @@ public class UserLogin {
 	private String senha;
 	
 	private String token;
+	
+	private long id;
+
+	public long getId() {
+		return id;
+	}
+
+	public void setId(long id) {
+		this.id = id;
+	}
 
 	public String getNome() {
 		return nome;
